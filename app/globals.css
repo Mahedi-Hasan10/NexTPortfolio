@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +24,40 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    
+}
+
+.custom-backdrop-filter {
+  backdrop-filter: blur(32px);
+}
+
+.custom-font-family{
+  font-family: 'Fira Code', monospace;
+}
+
+.ant-drawer-wrapper-body{
+  background-color: #011627;
+}
+
+.custom-shadow {
+  width: auto;
+  height: auto;
+  box-shadow: 
+    -40px -40px 250px rgba(69, 217, 172,0.2) ,
+    40px 40px 250px rgba(77, 92, 207, 0.2);
+}
+
+.ant-menu-item-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.ant-card-meta-description{
+  color: #607B96 !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.ant-menu-submenu{
+  border-bottom: 1px solid #1E2D3D !important;
+  border-radius: 0px !important;  
 }
