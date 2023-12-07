@@ -16,6 +16,15 @@ module.exports = {
         'custom': 'inset 0px 2px 0px 0px rgba(255, 255, 255, 0.30)',
       }
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      // Add any other custom breakpoints here in pixels
+      'custom-md': {'min': '1775px'},
+      'custom-lg': {'max': '2600px'},
+    },
   },
   plugins: [],
 }

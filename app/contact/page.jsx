@@ -8,6 +8,7 @@ import { IoMdMail } from "react-icons/io";
 import { FaDiscord, FaExternalLinkAlt, FaFacebookSquare, FaFileAlt, FaSkype } from "react-icons/fa";
 import { IoShareSocial } from "react-icons/io5";
 import ContactForm from "@/components/contact/contactForm";
+import ContactRight from "@/components/contact/contactRight";
 function getItem(label, key, icon, children, type) {
   return {
     key,
@@ -53,8 +54,8 @@ const Page = () => {
     }
 
   return (
-    <div className="flex min-h-[80vh] lg:flex-row flex-col">
-      <div className="border-r border-r-[#1e2e3d] min-h-[80vh]">
+    <div className="flex lg:flex-row flex-col">
+      <div className="border-r border-r-[#1e2e3d] max-h-[80vh]">
         <div
           style={{
             width: 319,
@@ -73,14 +74,19 @@ const Page = () => {
           />
         </div>
       </div>
-      <div className=" min-h-[80vh] w-full ">
+      <div className=" w-full ">
         <div className=" border-b py-3 border-b-[#1e2e3d]">
           <p className="text-[#607B96] text-[16px] px-4 h-full border-r-[#1e2e3d] border-r w-fit">_contact x</p>
         </div>
-        <div className="flex lg:flex-row flex-col">
-        <div className="w-[100%] mx-auto px-16 py-10 lg:border-r lg:border-[#1e2e3d]" >
+        <div className="flex">
+        <div className="lg:w-[100%] h-full max-w-[50%] flex lg:flex-row flex-col  mx-auto px-16 py-10 custom-md:border-r custom-md:border-[#1e2e3d]" >
+        
           <ContactForm/>
+          
         </div>
+        <div className="min-w-[50%] mx-auto custom-md:block hidden">
+          <ContactRight/>
+          </div>
         
         </div>
       </div>
