@@ -39,8 +39,7 @@ const Info = () => {
             Hi there, I&apos;m Mahedi Hasan, a passionate Full Stack Web Developer
             hailing from the vibrant city of Khulna, Bangladesh.
           </p>
-          <p className="flex items-center"> 
-          </p>
+          
           <p className="flex items-center">
             In the realm of web development, I find my true calling. Armed with
             TypeScript, I navigate the digital landscapes, crafting solutions
@@ -48,8 +47,7 @@ const Info = () => {
             battlefield, I&apos;m not afraid to explore beyond, dabbling in
             technologies like Rust, React Native and Blockchain.
           </p>
-          <p className="flex items-center">
-          </p>
+          
           <p className="flex items-center">
             I thrive on challenges, solving problems, and turning ideas into
             tangible, functional products.

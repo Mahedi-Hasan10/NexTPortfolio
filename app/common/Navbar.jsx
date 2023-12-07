@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/">
                 _hello
               </Link>
-              <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/about-me/terminal">
+              <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/about-me/info">
                 _about-me
               </Link>
               <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/project">
@@ -79,7 +79,7 @@ const Navbar = () => {
             </Link>
             <Link
               className="lg:border-r border-b border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white focus:border-b-2 focus:border-b-[#FEA55F]"
-              href="/about-me/terminal"
+              href="/about-me/info"
             >
               _about-me
             </Link>
