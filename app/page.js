@@ -54,19 +54,19 @@ export default function Home() {
             />
           </div>
           <div className="flex gap-6">
-            <div class="bg-[#05202e] h-[405.32px] w-[238.96px] bg-opacity-84 shadow-inner rounded-[8px] flex flex-col items-center justify-end">
+            <div className="bg-[#05202e] h-[405.32px] w-[238.96px] bg-opacity-84 shadow-inner rounded-[8px] flex flex-col items-center justify-end">
               <p className="mb-[150px]">Coming soon...</p>
               <button className="bg-[#FEA55F] px-[15px] py-[10px] text-white rounded-md mb-[25px]">
                 Start Game
               </button>
             </div>
-            <div class="h-[405.32px] w-[238.96px] bg-opacity-84 rounded-[8px] flex flex-col items-center justify-between">
+            <div className="h-[405.32px] w-[238.96px] bg-opacity-84 rounded-[8px] flex flex-col items-center justify-between">
               <div className="bg-[#185356] h-[142px] w-full rounded-lg px-3 py-2">
                 <p className="text-[#fff] font-[450] text-[14px]">
-                  // use keyboard
+                  `// use keyboard`
                 </p>
                 <p className="text-[#fff] font-[450] text-[14px]">
-                  // arrows to play
+                  `// arrows to play`
                 </p>
                 <div className="text-[30px] mt-[7px]">
                   <div className="flex items-center justify-center">
@@ -88,9 +88,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[#fff] font-[450] text-[14px]">
-              // food left
+              `// food left`
               </p>
-              <p className="grid grid-cols-5 gap-3 mt-[-30px]">
+              <div className="grid grid-cols-5 gap-3 mt-[-30px]">
                 <GameDot />
                 <GameDot />
                 <GameDot />
@@ -101,7 +101,7 @@ export default function Home() {
                 <GameDot />
                 <GameDot />
                 <GameDot />
-              </p>
+              </div>
               <button className="px-[15px] py-[10px] border border-white text-white rounded-md mb-[25px]">
                 Skip
               </button>
