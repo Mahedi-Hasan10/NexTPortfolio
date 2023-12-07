@@ -51,7 +51,7 @@ const InfoSport = () => {
           <p className="flex items-center">----- Cricket -----</p>
           <p className="flex items-center">
             Cricket has been a passion of mine, and I find immense joy in
-            <br /> being on the field, whether it's wielding the bat, honing my
+            <br /> being on the field, whether it&apos;s wielding the bat, honing my
             <br /> bowling skills, or diving to make a crucial catch. The
             strategic
             <br /> nature of the game and the teamwork involved resonate with

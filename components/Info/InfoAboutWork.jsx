@@ -31,9 +31,9 @@ const InfoAboutWork = () => {
 
                 </div>
                 <div className="grid grid-cols-1 gap-1 items-center">
-                <p>In the last one years, I've dedicated myself to mastering the
+                <p>In the last one years, I&apos;ve dedicated myself to mastering the
                 art of Full Stack Web Development. Through hands-on experience
-                with diverse technologies and frameworks, I've honed my skills 
+                with diverse technologies and frameworks, I&apos;ve honed my skills 
                 to create impactful solutions.</p>
            
                 <p className="flex items-center">----- appstick.com.bd -----</p>

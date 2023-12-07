@@ -63,10 +63,10 @@ export default function Home() {
             <div className="h-[405.32px] w-[238.96px] bg-opacity-84 rounded-[8px] flex flex-col items-center justify-between">
               <div className="bg-[#185356] h-[142px] w-full rounded-lg px-3 py-2">
                 <p className="text-[#fff] font-[450] text-[14px]">
-                  `// use keyboard`
+                &frasl; &frasl; use keyboard
                 </p>
                 <p className="text-[#fff] font-[450] text-[14px]">
-                  `// arrows to play`
+                &frasl; &frasl; arrows to play
                 </p>
                 <div className="text-[30px] mt-[7px]">
                   <div className="flex items-center justify-center">
@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[#fff] font-[450] text-[14px]">
-              `// food left`
+              &frasl; &frasl; food left  
               </p>
               <div className="grid grid-cols-5 gap-3 mt-[-30px]">
                 <GameDot />
