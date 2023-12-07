@@ -14,7 +14,7 @@ const Projects = () => {
 
           />
           <ProjectCard
-            shortDes="Portfolio web site created with nextjs."
+            shortDes="Simple Travel web site created with nextjs."
             imageSrc={"/projects/project2.png"}
             DeployLink="https://travel-app-chi-pink.vercel.app/"
             githubLink="https://github.com/Mahedi-Hasan10/travel_app"
