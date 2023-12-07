@@ -18,7 +18,7 @@ export default function Home() {
             Mahedi Hasan
           </h1>
           <h3 className="text-[#4D5BCE] lg:text-[32px] md:text-[26px] text-[20px] font-[450]">
-            {" "}
+          
             &gt; Front-end developer
           </h3>
           <div className="text-[#607B96] font-[450] py-2 lg:mt-[80px] md:mt-[40px] mt-[30px] flex flex-col gap-[10px]">
