@@ -23,7 +23,7 @@ export default function Home() {
           </h3>
           <div className="text-[#607B96] font-[450] py-2 lg:mt-[80px] md:mt-[40px] mt-[30px] flex flex-col gap-[10px]">
             <p>&frasl; &frasl; find my profile on GitHub</p>
-            <p className="text-[16px] font-[500]">
+            <Link href="https://github.com/Mahedi-Hasan10" className="text-[16px] font-[500]">
               <span className="text-[#4D5BCE]">Const</span>{" "}
               <span className="text-[#43D9AD]"> GithubLink</span> <span>=</span>{" "}
               <Link
@@ -32,7 +32,18 @@ export default function Home() {
               >
                 “https://github.com/Mahedi-Hasan10”
               </Link>
-            </p>
+            </Link>
+            <p className="mt-2">&frasl; &frasl; Download my resume</p>
+            <Link href="https://drive.google.com/file/d/10AbcSkSHZRurwCtBeuiQVxEYXEhgjZBv/view?usp=sharin" className="text-[16px] font-[500]">
+              <span className="text-[#00a745]">Const</span>{" "}
+              <span className="text-[#2580f4]"> Google Drive </span> <span>=</span>{" "}
+              <Link
+                href="https://drive.google.com/file/d/10AbcSkSHZRurwCtBeuiQVxEYXEhgjZBv/view?usp=sharing"
+                className="text-[#f7b400]"
+              >
+                “www.drive.google.com/”
+              </Link>
+            </Link>
           </div>
         </div>
       </div>
