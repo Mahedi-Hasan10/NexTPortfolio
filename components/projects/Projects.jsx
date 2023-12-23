@@ -6,7 +6,7 @@ const Projects = () => {
       <div className="container  mx-auto ">
         <div className="flex flex-wrap  gap-8">
           <ProjectCard
-            shortDes="Portfolio web site created with nextjs."
+            shortDes="Portfolio website created with nextjs."
             imageSrc={"/projects/project1.png"}
             DeployLink="https://next-portfolio-5n3a.vercel.app/"
             githubLink="https://github.com/Mahedi-Hasan10/NextPortfolio"
@@ -14,10 +14,18 @@ const Projects = () => {
 
           />
           <ProjectCard
-            shortDes="Simple Travel web site created with nextjs."
+            shortDes="Simple Travel website created with nextjs."
             imageSrc={"/projects/project2.png"}
             DeployLink="https://travel-app-chi-pink.vercel.app/"
             githubLink="https://github.com/Mahedi-Hasan10/travel_app"
+            technology="Next.js"
+
+          />
+          <ProjectCard
+            shortDes="Simple Educational website created with nextjs."
+            imageSrc={"/projects/project3.png"}
+            DeployLink="stack-junior-jni6.vercel.app"
+            githubLink="https://github.com/Mahedi-Hasan10/stack-junior"
             technology="Next.js"
 
           />
