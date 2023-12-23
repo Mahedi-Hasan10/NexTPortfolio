@@ -22,8 +22,7 @@ export default function Home() {
             &gt; Front-end developer
           </h3>
           <div className="text-[#607B96] font-[450] py-2 lg:mt-[80px] md:mt-[40px] mt-[30px] flex flex-col gap-[10px]">
-            <p>&frasl; &frasl; complete the game to continue</p>
-            <p>&frasl; &frasl; you can also see it on my Github page</p>
+            <p>&frasl; &frasl; find my profile on GitHub</p>
             <p className="text-[16px] font-[500]">
               <span className="text-[#4D5BCE]">Const</span>{" "}
               <span className="text-[#43D9AD]"> GithubLink</span> <span>=</span>{" "}
