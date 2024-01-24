@@ -61,7 +61,9 @@ body {
 }
 .custom-style{
  border-bottom: 3px solid #FEA55F;
+ color: white;
 }
 .not-custom-style{
   border-bottom: none;
+  color: #607B96;
 }

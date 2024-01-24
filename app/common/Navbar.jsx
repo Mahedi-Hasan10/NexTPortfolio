@@ -75,7 +75,7 @@ const Navbar = () => {
             <Link
             className={`${
               pathname === "/" ? "custom-style" : "not-custom-style"
-            } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
+            } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
               href="/"
             >
               _hello
@@ -83,7 +83,7 @@ const Navbar = () => {
             <Link
                className={`${
                 pathname === "/about-me/info" ? "custom-style" : "not-custom-style"
-              } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
+              } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
               href="/about-me/info"
             >
               _about-me
@@ -91,7 +91,7 @@ const Navbar = () => {
             <Link
                className={`${
                 pathname === "/project" ? "custom-style" : "not-custom-style"
-              } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
+              } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
               href="/project"
             >
               _projects
@@ -101,7 +101,7 @@ const Navbar = () => {
         <Link
            className={`${
             pathname === "/contact" ? "custom-style" : "not-custom-style"
-          } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
+          } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
           href="/contact"
         >
           _contact-me
