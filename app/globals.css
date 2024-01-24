@@ -59,3 +59,9 @@ body {
   border-bottom: 1px solid #1E2D3D !important;
   border-radius: 0px !important;  
 }
+.custom-style{
+ border-bottom: 3px solid #FEA55F;
+}
+.not-custom-style{
+  border-bottom: none;
+}

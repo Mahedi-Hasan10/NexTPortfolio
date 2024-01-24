@@ -3,8 +3,10 @@ import Link from "next/link";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import { Button, Drawer, Radio, Space } from "antd";
-
+import { usePathname } from 'next/navigation';
 const Navbar = () => {
+  const pathname = usePathname();
+  const [BorderBottom, setBorderBottom] = useState('border-b-[orange]');
   const [open, setOpen] = useState(false);
   const [placement, setPlacement] = useState("left");
   const showDrawer = () => {
@@ -13,7 +15,7 @@ const Navbar = () => {
   const onClose = () => {
     setOpen(false);
   };
-  
+ 
   return (
     <header className="border border-[#1E2D3D]">
       <Space className="lg:hidden flex">
@@ -24,7 +26,7 @@ const Navbar = () => {
 
       <Drawer
         placement={placement}
-        width={250}
+        // width={250}
         open={open}
         extra={
           <Space>
@@ -42,16 +44,16 @@ const Navbar = () => {
               Sheikh Md Mahedi Hasan
             </Link>
             <div className="flex flex-col object-fit gap-6 text-[20px]">
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/">
                 _hello
               </Link>
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/about-me/info">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/about-me/info">
                 _about-me
               </Link>
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/project">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/project">
                 _projects
               </Link>
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/contact">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/contact">
                 _contact-me
               </Link>
             </div>
@@ -71,19 +73,25 @@ const Navbar = () => {
           </Link>
           <div className="flex lg:flex-row flex-col object-fit">
             <Link
-              className="lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white focus:border-b-2 focus:border-b-[#FEA55F]"
+            className={`${
+              pathname === "/" ? "custom-style" : "not-custom-style"
+            } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
               href="/"
             >
               _hello
             </Link>
             <Link
-              className="lg:border-r border-b border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white focus:border-b-2 focus:border-b-[#FEA55F]"
+               className={`${
+                pathname === "/about-me/info" ? "custom-style" : "not-custom-style"
+              } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
               href="/about-me/info"
             >
               _about-me
             </Link>
             <Link
-              className="lg:border-r border-b border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white focus:border-b-2 focus:border-b-[#FEA55F]"
+               className={`${
+                pathname === "/project" ? "custom-style" : "not-custom-style"
+              } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
               href="/project"
             >
               _projects
@@ -91,7 +99,9 @@ const Navbar = () => {
           </div>
         </div>
         <Link
-          className="lg:border-l border-b border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white focus:border-b-2 focus:border-b-[#FEA55F] "
+           className={`${
+            pathname === "/contact" ? "custom-style" : "not-custom-style"
+          } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white focus:text-white `}
           href="/contact"
         >
           _contact-me
