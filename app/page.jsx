@@ -57,7 +57,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:block hidden custom-shadow rounded-lg">
+      <div className="lg:block hidden custom-shadow rounded-lg h-fit">
         <div className="h-[475px] w-[510px] bg-[url('/Background.png')] bg-no-repeat  py-[20px] px-[35px] flex flex-col justify-between">
           <div className="flex justify-between mb-[8px]">
             <Image

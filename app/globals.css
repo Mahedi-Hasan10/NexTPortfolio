@@ -40,8 +40,6 @@ body {
 }
 
 .custom-shadow {
-  width: auto;
-  height: auto;
   box-shadow: 
     -40px -40px 250px rgba(69, 217, 172,0.2) ,
     40px 40px 250px rgba(77, 92, 207, 0.2);
