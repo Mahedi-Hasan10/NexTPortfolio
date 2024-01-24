@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const CodeDisplay = () => {
   const code = `
@@ -18,9 +18,7 @@ const CodeDisplay = () => {
 
   return (
     <div className="flex text-[#607B96] items-center ">
-      <pre className=" p-4 text-md">
-        {code}
-      </pre>
+      <pre className=" p-4 text-md">{code}</pre>
     </div>
   );
 };

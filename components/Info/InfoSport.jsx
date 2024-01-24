@@ -41,17 +41,21 @@ const InfoSport = () => {
         </div>
         <div className="grid grid-cols-1 gap-1 items-center">
           <p className="flex items-center">
-            Sports have always been an integral part of my life, providing <br /> not
-            only a source of physical activity but also moments of joy <br /> and
-            camaraderie.
+            Sports have always been an integral part of my life, providing{" "}
+            <br /> not only a source of physical activity but also moments of
+            joy <br /> and camaraderie.
           </p>
 
-          <p className="flex items-center"> <br /></p>
+          <p className="flex items-center">
+            {" "}
+            <br />
+          </p>
 
           <p className="flex items-center">----- Cricket -----</p>
           <p className="flex items-center">
             Cricket has been a passion of mine, and I find immense joy in
-            <br /> being on the field, whether it&apos;s wielding the bat, honing my
+            <br /> being on the field, whether it&apos;s wielding the bat,
+            honing my
             <br /> bowling skills, or diving to make a crucial catch. The
             strategic
             <br /> nature of the game and the teamwork involved resonate with
@@ -59,14 +63,20 @@ const InfoSport = () => {
             <br /> making cricket a sport that I thoroughly enjoy.
             <br />
           </p>
-          <p className="flex items-center"> <br /></p>
+          <p className="flex items-center">
+            {" "}
+            <br />
+          </p>
           <p className="flex items-center">----- Badminton -----</p>
           <p className="flex items-center">
-            Badminton is another sport that I actively participate in. The <br />
-            fast-paced rallies and quick reflexes required in badminton <br /> have not
-            only contributed to my physical fitness but have also added a  layer
-            of excitement to my leisure time. The friendly matches and <br />
-            competitive spirit make every badminton session an exhilarating <br />
+            Badminton is another sport that I actively participate in. The{" "}
+            <br />
+            fast-paced rallies and quick reflexes required in badminton <br />{" "}
+            have not only contributed to my physical fitness but have also added
+            a layer of excitement to my leisure time. The friendly matches and{" "}
+            <br />
+            competitive spirit make every badminton session an exhilarating{" "}
+            <br />
             experience.
           </p>
         </div>

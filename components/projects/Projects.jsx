@@ -11,7 +11,6 @@ const Projects = () => {
             DeployLink="https://next-portfolio-5n3a.vercel.app/"
             githubLink="https://github.com/Mahedi-Hasan10/NextPortfolio"
             technology="Next.js"
-
           />
           <ProjectCard
             shortDes="Simple Travel website created with nextjs."
@@ -19,7 +18,6 @@ const Projects = () => {
             DeployLink="https://travel-app-chi-pink.vercel.app/"
             githubLink="https://github.com/Mahedi-Hasan10/travel_app"
             technology="Next.js"
-
           />
           <ProjectCard
             shortDes="Simple Educational website created with nextjs."
@@ -27,7 +25,6 @@ const Projects = () => {
             DeployLink="https://stack-junior-jni6.vercel.app"
             githubLink="https://github.com/Mahedi-Hasan10/stack-junior"
             technology="Next.js"
-
           />
         </div>
       </div>

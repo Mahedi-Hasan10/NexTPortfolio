@@ -3,10 +3,10 @@ import Link from "next/link";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import { Button, Drawer, Radio, Space } from "antd";
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
 const Navbar = () => {
   const pathname = usePathname();
-  const [BorderBottom, setBorderBottom] = useState('border-b-[orange]');
+  const [BorderBottom, setBorderBottom] = useState("border-b-[orange]");
   const [open, setOpen] = useState(false);
   const [placement, setPlacement] = useState("left");
   const showDrawer = () => {
@@ -15,12 +15,12 @@ const Navbar = () => {
   const onClose = () => {
     setOpen(false);
   };
- 
+
   return (
     <header className="border border-[#1E2D3D]">
       <Space className="lg:hidden flex">
         <button className="px-3 py-2" onClick={showDrawer}>
-            <IoMenu className="text-white text-[30px]"/>
+          <IoMenu className="text-white text-[30px]" />
         </button>
       </Space>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
         extra={
           <Space>
             <button type="primary" onClick={onClose}>
-              <IoCloseSharp className="text-white text-[30px]"/>
+              <IoCloseSharp className="text-white text-[30px]" />
             </button>
           </Space>
         }
@@ -40,20 +40,39 @@ const Navbar = () => {
           className={`flex lg:flex-row flex-col justify-between items-center text-white transition-all duration-300 text-base font-[450] `}
         >
           <div className="flex flex-col items-center gap-5 mt-[-20px]">
-            <Link href="/" className="border-b-white border-b-2 py-3  font-bold">
+            <Link
+              href="/"
+              className="border-b-white border-b-2 py-3  font-bold"
+            >
               Sheikh Md Mahedi Hasan
             </Link>
             <div className="flex flex-col object-fit gap-6 text-[20px]">
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/">
+              <Link
+                onClick={onClose}
+                className="border-b-white border-b-2 py-3 BorderBottom text-center"
+                href="/"
+              >
                 _hello
               </Link>
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/about-me/info">
+              <Link
+                onClick={onClose}
+                className="border-b-white border-b-2 py-3 BorderBottom text-center"
+                href="/about-me/info"
+              >
                 _about-me
               </Link>
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/project">
+              <Link
+                onClick={onClose}
+                className="border-b-white border-b-2 py-3 BorderBottom text-center"
+                href="/project"
+              >
                 _projects
               </Link>
-              <Link onClick={onClose} className="border-b-white border-b-2 py-3 BorderBottom text-center" href="/contact">
+              <Link
+                onClick={onClose}
+                className="border-b-white border-b-2 py-3 BorderBottom text-center"
+                href="/contact"
+              >
                 _contact-me
               </Link>
             </div>
@@ -73,23 +92,25 @@ const Navbar = () => {
           </Link>
           <div className="flex lg:flex-row flex-col object-fit">
             <Link
-            className={`${
-              pathname === "/" ? "custom-style" : "not-custom-style"
-            } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
+              className={`${
+                pathname === "/" ? "custom-style" : "not-custom-style"
+              } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
               href="/"
             >
               _hello
             </Link>
             <Link
-               className={`${
-                pathname === "/about-me/info" ? "custom-style" : "not-custom-style"
+              className={`${
+                pathname === "/about-me/info"
+                  ? "custom-style"
+                  : "not-custom-style"
               } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
               href="/about-me/info"
             >
               _about-me
             </Link>
             <Link
-               className={`${
+              className={`${
                 pathname === "/project" ? "custom-style" : "not-custom-style"
               } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
               href="/project"
@@ -99,7 +120,7 @@ const Navbar = () => {
           </div>
         </div>
         <Link
-           className={`${
+          className={`${
             pathname === "/contact" ? "custom-style" : "not-custom-style"
           } lg:border-r border-b lg:border-l border-t border-[#1E2D3D] px-[22px] py-[17px] hover:text-white `}
           href="/contact"

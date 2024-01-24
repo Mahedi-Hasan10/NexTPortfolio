@@ -15,39 +15,41 @@ const Footer = () => {
             find me in:
           </Link>
           <div className="flex lg:flex-row flex-wrap object-fit">
-          <Link
+            <Link
               className=" px-[22px] py-[17px] hover:text-white lg:border-r-[#1E2D3D] lg:border-r-[1px]"
               href="https://www.linkedin.com/in/sheikh-md-mahedi-hasan-b93898238/"
             >
-              <FaLinkedin className="text-[20px]"/>
+              <FaLinkedin className="text-[20px]" />
             </Link>
             <Link
               className=" px-[22px] py-[17px] hover:text-white lg:border-r-[#1E2D3D] lg:border-r-[1px]"
               href="https://twitter.com/SmMahedi10"
             >
-              <FaTwitter className="text-[20px]"/>
+              <FaTwitter className="text-[20px]" />
             </Link>
             <Link
               className=" px-[22px] py-[17px] hover:text-white lg:border-r-[#1E2D3D] lg:border-r-[1px]"
               href="https://www.facebook.com/s.m.mahadi.188/"
             >
-               <FaFacebook className="text-[20px]"/>
+              <FaFacebook className="text-[20px]" />
             </Link>
           </div>
         </div>
         <div className="flex flex-wrap gap-2 justify-center">
-        <Link
-          className=" lg:px-[22px] px-2 lg:py-[17px] py-2 hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
-          href="https://github.com/Mahedi-Hasan10"
-        >
-           @yanka-darelova <FaFigma className="text-[20px] inline-block ml-[5px]"/> 
-        </Link>
-        <Link
-          className=" lg:px-[22px] px-2 lg:py-[17px] py-2 hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
-          href="https://github.com/Mahedi-Hasan10"
-        >
-            @Mahedi-Hasan10 <FaGithub className="text-[20px] inline-block ml-[5px]"/> 
-        </Link>
+          <Link
+            className=" lg:px-[22px] px-2 lg:py-[17px] py-2 hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
+            href="https://github.com/Mahedi-Hasan10"
+          >
+            @yanka-darelova{" "}
+            <FaFigma className="text-[20px] inline-block ml-[5px]" />
+          </Link>
+          <Link
+            className=" lg:px-[22px] px-2 lg:py-[17px] py-2 hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
+            href="https://github.com/Mahedi-Hasan10"
+          >
+            @Mahedi-Hasan10{" "}
+            <FaGithub className="text-[20px] inline-block ml-[5px]" />
+          </Link>
         </div>
       </nav>
     </footer>

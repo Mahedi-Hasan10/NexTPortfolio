@@ -1,5 +1,5 @@
 export const AboutMeText = `
-1   * Hi there, I'm Imran Shaikh, a passionate
+1   * Hi there, I'm Mahedi Hasan, a passionate
 2   * Full Stack Web Developer hailing from the
 3   * vibrant city of Khulna, Bangladesh.
 4  

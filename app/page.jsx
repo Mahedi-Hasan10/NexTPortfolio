@@ -8,8 +8,7 @@ import {
   IoMdArrowDropdown,
   IoMdArrowDropright,
 } from "react-icons/io";
-import { TypeAnimation } from 'react-type-animation';
-
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   return (
@@ -21,19 +20,28 @@ export default function Home() {
             Mahedi Hasan
           </h1>
           <h3 className="text-[#43D9AD] lg:text-[32px] md:text-[26px] text-[20px] font-[450]">
-          
-            &gt; 
+            &gt;
             <TypeAnimation
-              sequence={[' Software Engineer', 500, ' Front-end Developer', 500,' Backend Developer', 500, ' Programmer', 500]}
+              sequence={[
+                " Software Engineer",
+                500,
+                " Front-end Developer",
+                500,
+                " Backend Developer",
+                500,
+                " Programmer",
+                500,
+              ]}
               repeat={Infinity}
               speed={75}
-
-
             />
           </h3>
           <div className="text-[#607B96] font-[450] py-2 lg:mt-[80px] md:mt-[40px] mt-[20px] flex flex-col gap-[10px]">
             <p>&frasl; &frasl; find my profile on GitHub</p>
-            <Link href="https://github.com/Mahedi-Hasan10" className="text-[16px] font-[500]">
+            <Link
+              href="https://github.com/Mahedi-Hasan10"
+              className="text-[16px] font-[500]"
+            >
               <span className="text-[#4D5BCE]">Const</span>{" "}
               <span className="text-[#43D9AD]"> GithubLink</span> <span>=</span>{" "}
               <Link
@@ -44,9 +52,13 @@ export default function Home() {
               </Link>
             </Link>
             <p className="mt-2">&frasl; &frasl; Download my resume</p>
-            <Link href="https://drive.google.com/file/d/10AbcSkSHZRurwCtBeuiQVxEYXEhgjZBv/view?usp=sharin" className="text-[16px] font-[500]">
+            <Link
+              href="https://drive.google.com/file/d/10AbcSkSHZRurwCtBeuiQVxEYXEhgjZBv/view?usp=sharin"
+              className="text-[16px] font-[500]"
+            >
               <span className="text-[#00a745]">Const</span>{" "}
-              <span className="text-[#2580f4]"> Google Drive </span> <span>=</span>{" "}
+              <span className="text-[#2580f4]"> Google Drive </span>{" "}
+              <span>=</span>{" "}
               <Link
                 href="https://drive.google.com/file/d/10AbcSkSHZRurwCtBeuiQVxEYXEhgjZBv/view?usp=sharing"
                 className="text-[#f7b400]"
@@ -83,10 +95,10 @@ export default function Home() {
             <div className="h-[405.32px] w-[238.96px] bg-opacity-84 rounded-[8px] flex flex-col items-center justify-between">
               <div className="bg-[#185356] h-[142px] w-full rounded-lg px-3 py-2">
                 <p className="text-[#fff] font-[450] text-[14px]">
-                &frasl; &frasl; use keyboard
+                  &frasl; &frasl; use keyboard
                 </p>
                 <p className="text-[#fff] font-[450] text-[14px]">
-                &frasl; &frasl; arrows to play
+                  &frasl; &frasl; arrows to play
                 </p>
                 <div className="text-[30px] mt-[7px]">
                   <div className="flex items-center justify-center">
@@ -108,7 +120,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-[#fff] font-[450] text-[14px]">
-              &frasl; &frasl; food left  
+                &frasl; &frasl; food left
               </p>
               <div className="grid grid-cols-5 gap-3 mt-[-30px]">
                 <GameDot />

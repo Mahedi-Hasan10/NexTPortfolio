@@ -40,13 +40,15 @@ const InfoCollege = () => {
             my earlier years were dedicated to achieving excellence in primary
             and high school, my interests evolved during college.
           </p>
-          <p className="flex items-center"></p><br />
+          <p className="flex items-center"></p>
+          <br />
           <p className="flex items-center">Academic Highlights:</p>
           <p className="flex items-center">
             - College Exam Score: Attained a decent score, maintaining a
             commitment to academic success.
           </p>
-          <p className="flex items-center"></p><br />
+          <p className="flex items-center"></p>
+          <br />
           <p className="flex items-center">
             However, my true passion unfolded in the realm of technology and
             development. Throughout my college journey, I found myself drawn to
@@ -55,7 +57,8 @@ const InfoCollege = () => {
             academically, my heart was more invested in hands-on learning and
             practical applications.
           </p>
-          <p className="flex items-center"></p><br />
+          <p className="flex items-center"></p>
+          <br />
           <p className="flex items-center">
             This period of my life solidified my decision to pursue a path
             aligned with my passion, leading me towards a fulfilling journey in

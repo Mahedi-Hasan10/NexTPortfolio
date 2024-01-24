@@ -36,10 +36,10 @@ const Info = () => {
         </div>
         <div className="grid grid-cols-1 gap-1 items-center">
           <p className="flex items-center">
-            Hi there, I&apos;m Mahedi Hasan, a passionate Full Stack Web Developer
-            hailing from the vibrant city of Khulna, Bangladesh.
+            Hi there, I&apos;m Mahedi Hasan, a passionate Full Stack Web
+            Developer hailing from the vibrant city of Khulna, Bangladesh.
           </p>
-          
+
           <p className="flex items-center">
             In the realm of web development, I find my true calling. Armed with
             TypeScript, I navigate the digital landscapes, crafting solutions
@@ -47,7 +47,7 @@ const Info = () => {
             battlefield, I&apos;m not afraid to explore beyond, dabbling in
             technologies like Rust, React Native and Blockchain.
           </p>
-          
+
           <p className="flex items-center">
             I thrive on challenges, solving problems, and turning ideas into
             tangible, functional products.
@@ -57,7 +57,6 @@ const Info = () => {
             Thank you for visiting my portfolio!
           </p>
         </div>
-        
       </div>
     </div>
   );
