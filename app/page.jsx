@@ -1,3 +1,4 @@
+"use client";
 import GameDot from "@/components/GameDot";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,21 +8,30 @@ import {
   IoMdArrowDropdown,
   IoMdArrowDropright,
 } from "react-icons/io";
+import { TypeAnimation } from 'react-type-animation';
+
 
 export default function Home() {
   return (
     <main className="lg:py-[130px] py-[0px] flex">
       <div className="lg:w-[50%] max-w-[100%] flex flex-col items-center justify-start lg:p-2 p-4">
-        <div className="flex flex-col gap-3 px-4 max-w-[490px]">
+        <div className="flex flex-col gap-[10px] px-4 max-w-[490px] py-[96px]">
           <p className="text-[#E5E9F0] text-lg font-[450]">Hi all. I am</p>
-          <h1 className="text-[#E5E9F0] lg:text-[62px] md:text-[40px] text-[30px]">
+          <h1 className="text-[#E5E9F0] lg:text-[62px] md:text-[40px] text-[30px] ">
             Mahedi Hasan
           </h1>
-          <h3 className="text-[#4D5BCE] lg:text-[32px] md:text-[26px] text-[20px] font-[450]">
+          <h3 className="text-[#43D9AD] lg:text-[32px] md:text-[26px] text-[20px] font-[450]">
           
-            &gt; Front-end developer
+            &gt; 
+            <TypeAnimation
+              sequence={[' Software Engineer', 500, ' Front-end Developer', 500,' Backend Developer', 500, ' Programmer', 500]}
+              repeat={Infinity}
+              speed={75}
+
+
+            />
           </h3>
-          <div className="text-[#607B96] font-[450] py-2 lg:mt-[80px] md:mt-[40px] mt-[30px] flex flex-col gap-[10px]">
+          <div className="text-[#607B96] font-[450] py-2 lg:mt-[80px] md:mt-[40px] mt-[20px] flex flex-col gap-[10px]">
             <p>&frasl; &frasl; find my profile on GitHub</p>
             <Link href="https://github.com/Mahedi-Hasan10" className="text-[16px] font-[500]">
               <span className="text-[#4D5BCE]">Const</span>{" "}

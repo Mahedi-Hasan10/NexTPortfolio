@@ -24,7 +24,7 @@ const Projects = () => {
           <ProjectCard
             shortDes="Simple Educational website created with nextjs."
             imageSrc={"/projects/project3.png"}
-            DeployLink="stack-junior-jni6.vercel.app"
+            DeployLink="https://stack-junior-jni6.vercel.app"
             githubLink="https://github.com/Mahedi-Hasan10/stack-junior"
             technology="Next.js"
 

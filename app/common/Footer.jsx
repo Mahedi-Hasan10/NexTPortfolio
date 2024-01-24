@@ -35,15 +35,15 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="flex flex-wrap gap-2 justify-center">
         <Link
-          className=" px-[22px] py-[17px] hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
+          className=" lg:px-[22px] px-2 lg:py-[17px] py-2 hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
           href="https://github.com/Mahedi-Hasan10"
         >
            @yanka-darelova <FaFigma className="text-[20px] inline-block ml-[5px]"/> 
         </Link>
         <Link
-          className=" px-[22px] py-[17px] hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
+          className=" lg:px-[22px] px-2 lg:py-[17px] py-2 hover:text-white lg:border-l-[#1E2D3D] lg:border-l-[1px]"
           href="https://github.com/Mahedi-Hasan10"
         >
             @Mahedi-Hasan10 <FaGithub className="text-[20px] inline-block ml-[5px]"/> 

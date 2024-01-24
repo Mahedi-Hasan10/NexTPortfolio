@@ -57,6 +57,7 @@ const Info = () => {
             Thank you for visiting my portfolio!
           </p>
         </div>
+        
       </div>
     </div>
   );

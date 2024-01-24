@@ -25,7 +25,6 @@ const Navbar = () => {
       <Drawer
         placement={placement}
         width={250}
-        // onClose={onClose}
         open={open}
         extra={
           <Space>
@@ -43,16 +42,16 @@ const Navbar = () => {
               Sheikh Md Mahedi Hasan
             </Link>
             <div className="flex flex-col object-fit gap-6 text-[20px]">
-              <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/">
                 _hello
               </Link>
-              <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/about-me/info">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/about-me/info">
                 _about-me
               </Link>
-              <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/project">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/project">
                 _projects
               </Link>
-              <Link className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/contact">
+              <Link onClick={onClose} className="border-b-white border-b-2 py-3 focus:border-b-[orange] text-center" href="/contact">
                 _contact-me
               </Link>
             </div>

@@ -37,7 +37,7 @@ const email = <a href="mailto:hasanmdmahedi193@gmail.com">hasanmdmahedi193@gmail
 const items = [
   getItem("Info", "sub1", <FaFileAlt />, [
     getItem("Bio", "sub4", bio, [
-      getItem("About-me", "3",InfoSub),
+      getItem("About-me", "sub100",InfoSub),
       getItem("Abour-work", "4",InfoSub),
     ]),
 
@@ -107,7 +107,7 @@ const Page = () => {
 
   return (
     <div className="flex min-h-[80vh] lg:flex-row flex-col">
-      <div className="border-r border-r-[#1e2e3d] min-h-[80vh]">
+      <div className="border-r border-r-[#1e2e3d] lg:min-h-[80vh]">
         <div
           style={{
             width: 256,
@@ -116,7 +116,7 @@ const Page = () => {
         >
           <Menu
             defaultSelectedKeys={["1"]}
-            defaultOpenKeys={['sub1','sub4']}
+            defaultOpenKeys={['sub1','sub4','sub100']}
             
             mode="inline"
             theme="dark"
@@ -127,7 +127,7 @@ const Page = () => {
         </div>
       </div>
       <div className=" min-h-[80vh] w-full">
-        { (showItems === "3" && <Info />) ||
+        { (showItems === "sub100" && <Info />) ||
           (showItems === "4" && <InfoAboutWork />) ||
           (showItems === "5" && <InfoTravel />) ||
           (showItems === "6" && <InfoSport />) ||
