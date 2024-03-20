@@ -15,7 +15,7 @@ const Navbar = () => {
   const onClose = () => {
     setOpen(false);
   };
-
+//this is a comment
   return (
     <header className="border border-[#1E2D3D]">
       <Space className="lg:hidden flex">
